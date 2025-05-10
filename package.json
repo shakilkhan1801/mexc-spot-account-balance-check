@@ -1,0 +1,36 @@
+{
+  "name": "mexc-spot-balance-checker",
+  "version": "1.0.0",
+  "description": "A Node.js utility to check and monitor your MEXC spot account balances",
+  "main": "Get_Balance.js",
+  "scripts": {
+    "start": "node Get_Balance.js",
+    "check-specific": "node Check_specific.js"
+  },
+  "keywords": [
+    "mexc",
+    "crypto",
+    "balance",
+    "spot",
+    "trading",
+    "api"
+  ],
+  "author": "shakilkhan1801",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakilkhan1801/mexc-spot-account-balance-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shakilkhan1801/mexc-spot-account-balance-check/issues"
+  },
+  "homepage": "https://github.com/shakilkhan1801/mexc-spot-account-balance-check#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "crypto": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
